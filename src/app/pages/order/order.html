@@ -13,8 +13,8 @@
 
         <div class="main-route">
             <div class="main-block-title">Маршрут</div>
-            <div class="main-fields">
-                <div class="main-field" id="fromField" [formGroup]="routeForm">
+            <div class="main-fields" [formGroup]="routeForm">
+                <div class="main-field" id="fromField">
                     <div class="main-pin"></div>
                     <input id="from" formControlName="from" placeholder="Откуда: начните вводить адрес"
                         autocomplete="off" />
